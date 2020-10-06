@@ -4,27 +4,35 @@ You can use the [editor on GitHub](https://github.com/dwhathaway/TestFormSubmit/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Sample form
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<form action="https://github.com/organizations/<em>ORGANIZATION</em>/settings/apps/new?state=abc123" method="post">
+ Create a GitHub App Manifest: <input type="text" name="manifest" id="manifest"><br>
+ <input type="submit" value="Submit">
+</form>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+<script>
+ input = document.getElementById("manifest")
+ input.value = JSON.stringify({
+   "name": "Octoapp",
+   "url": "https://www.example.com",
+   "hook_attributes": {
+     "url": "https://example.com/github/events",
+   },
+   "redirect_url": "https://example.com/callback",
+   "public": true,
+   "default_permissions": {
+     "issues": "write",
+     "checks": "write"
+   },
+   "default_events": [
+     "issues",
+     "issue_comment",
+     "check_suite",
+     "check_run"
+   ]
+ })
+</script>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
