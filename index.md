@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Sample form
 
-<form action="https://github.com/organizations/<em>ORGANIZATION</em>/settings/apps/new?state=abc123" method="post">
+<form action="https://github.com/organizations/dwhathaway/settings/apps/new?state=abc123" method="post">
  Create a GitHub App Manifest: <input type="text" name="manifest" id="manifest"><br>
  <input type="submit" value="Submit">
 </form>
