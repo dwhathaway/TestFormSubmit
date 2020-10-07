@@ -132,6 +132,9 @@ name: Cloudmine Collector Functions (dwhathaway)
 # The homepage of your GitHub App.
 url: https://github.com/microsoft/CEDAR.GitHub.Collector
 
+# The full URL to redirect to after the person installs the GitHub App
+redirect_url: https://github.com/microsoft/CEDAR.GitHub.Collector
+
 # A description of the GitHub App.
 description: Azure functions that collect metadata about repos, organizations, etc.
 
