@@ -112,29 +112,28 @@ default_permissions:
 
   # Manage organization projects, columns, and cards.
   # https://developer.github.com/v3/apps/permissions/#permission-on-organization-projects
-  # organization_projects: read
+  organization_projects: read
 
   # Manage team discussions and related comments.
   # https://developer.github.com/v3/apps/permissions/#permission-on-team-discussions
-  # team_discussions: read
+  team_discussions: read
 
   # Manage the post-receive hooks for an organization.
   # https://developer.github.com/v3/apps/permissions/#permission-on-organization-hooks
-  # organization_hooks: read
+  organization_hooks: none
 
   # Get notified of, and update, content references.
   # https://developer.github.com/v3/apps/permissions/
-  # organization_administration: read
-
+  organization_administration: none
 
 # The name of the GitHub App. Defaults to the name specified in package.json
-# name: My Probot App
+name: Cloudmine Collector Functions (dwhathaway)
 
 # The homepage of your GitHub App.
-# url: https://example.com/
+url: https://github.com/microsoft/CEDAR.GitHub.Collector
 
 # A description of the GitHub App.
-# description: A description of my awesome app
+description: Azure functions that collect metadata about repos, organizations, etc.
 
 # Set to true when your GitHub App is available to the public or false when it is only accessible to the owner of the app.
 # Default: true
