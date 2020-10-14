@@ -56,7 +56,7 @@ default_permissions:
 
   # Repository creation, deletion, settings, teams, and collaborators.
   # https://developer.github.com/v3/apps/permissions/#permission-on-administration
-  administration: none
+  # administration: none
 
   # Checks on code.
   # https://developer.github.com/v3/apps/permissions/#permission-on-checks
@@ -88,7 +88,7 @@ default_permissions:
 
   # Manage the post-receive hooks for a repository.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-hooks
-  repository_hooks: none
+  # repository_hooks: none
 
   # Manage repository projects, columns, and cards.
   # https://developer.github.com/v3/apps/permissions/#permission-on-repository-projects
@@ -108,7 +108,7 @@ default_permissions:
 
   # View and manage users blocked by the organization.
   # https://developer.github.com/v3/apps/permissions/#permission-on-organization-user-blocking
-  organization_user_blocking: none
+  # organization_user_blocking: none
 
   # Manage organization projects, columns, and cards.
   # https://developer.github.com/v3/apps/permissions/#permission-on-organization-projects
@@ -120,11 +120,11 @@ default_permissions:
 
   # Manage the post-receive hooks for an organization.
   # https://developer.github.com/v3/apps/permissions/#permission-on-organization-hooks
-  organization_hooks: none
+  # organization_hooks: none
 
   # Get notified of, and update, content references.
   # https://developer.github.com/v3/apps/permissions/
-  organization_administration: none
+  # organization_administration: none
 
 # The name of the GitHub App. Defaults to the name specified in package.json
 name: Cloudmine Collector Functions (dwhathaway)
