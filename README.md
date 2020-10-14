@@ -26,5 +26,3 @@
    ]
  })
 </script>
-<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
-onclick="alert('hello');" />
